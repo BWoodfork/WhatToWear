@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem 'sinatra'
+gem 'sinatra-base'
 gem 'rack'
 gem 'thin'
 gem 'rack-test'

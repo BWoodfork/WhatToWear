@@ -3,7 +3,6 @@ $: << File.expand_path(File.dirname(__FILE__)) + '/../lib/'
 
 require 'app'
 require 'rack/test'
-require 'web_game_store'
 
 require 'pry'
 

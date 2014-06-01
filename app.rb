@@ -4,6 +4,7 @@ Dir[File.dirname(__FILE__) + '/lib/models/*.rb'].each {|file| require file }
 require 'sinatra/base'
 require 'sinatra/twitter-bootstrap'
 require 'settings'
+require 'haml'
 
 class App < Sinatra::Base
   register Sinatra::Twitter::Bootstrap::Assets

@@ -8,3 +8,5 @@ gem 'jquery-rails'
 
 gem 'rspec'
 gem 'pry'
+
+gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'

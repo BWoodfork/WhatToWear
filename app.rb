@@ -5,5 +5,7 @@ require 'sinatra/base'
 require 'settings'
 
 class App < Sinatra::Application
-
+  get '/' do
+    erb '/welcome'.to_sym
+  end
 end

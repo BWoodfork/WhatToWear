@@ -1,8 +1,6 @@
 class OnePieceOutfit
-  def initialize(main, watch, bag, shoes)
+  def initialize(main, accessories )
     @main  = main
-    @watch = watch
-    @bag   = bag
-    @shoes = shoes
+    @watch = accessories
   end
 end

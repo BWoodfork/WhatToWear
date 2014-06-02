@@ -12,6 +12,6 @@ class OutfitOptions
 
   def brunch_with_friends_settings
     { :occasion=>"brunch", 
-      :with_who=>"friends"}
+      :with_who=>"friends" }
   end
 end

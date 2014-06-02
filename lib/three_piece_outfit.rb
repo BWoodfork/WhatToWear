@@ -3,6 +3,6 @@ class ThreePieceOutfit
     @piece_one   = piece_one
     @piece_two   = piece_two
     @piece_three = piece_three
-    @piece_four  = piece_four
+    @accessories = accessories
   end
 end

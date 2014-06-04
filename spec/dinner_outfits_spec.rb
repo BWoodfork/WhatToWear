@@ -18,10 +18,10 @@ describe DinnerOutfits do
     it "saves an outfit with an id" do 
       test_outfits.save("Black dress")
 
-      test_outfits.records.values[1].should == "Black dress"
+      test_outfits.records[1].should == "Black dress"
     end
 
-    xit "set an id on the outfit that it saves" do 
+    it "set an id on the outfit that it saves" do 
       test_outfits.save("Black dress")
       test_outfits.save("Red dress")
 

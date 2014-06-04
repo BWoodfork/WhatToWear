@@ -7,7 +7,7 @@ class DinnerOutfits
   end
 
   def save(outfit)
-    @records[1] = outfit
-    @records[2] = outfit
+    @records[@id] = outfit
+    @records[@id + 1] = outfit
   end
 end
